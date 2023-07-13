@@ -1,0 +1,1 @@
+//adicionar o botao de registre-se entre outras funcionalidades!

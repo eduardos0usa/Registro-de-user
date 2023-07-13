@@ -1,0 +1,176 @@
+body{
+    /* cor roxa : #8a05be */
+    background-color:  #8a05be; 
+}
+#logoN{
+    margin-top: -20px;
+    margin-left: -5px;
+    width: 180px;
+}
+.register{
+    width: 440px;
+    height: 710px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    justify-content: center;
+    margin: auto;  
+    margin-top: 0px;
+    }
+    .register h2{
+    justify-content: center;
+    margin-top: 70px;
+    font: normal 23px sans-serif; 
+    color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    }
+    .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    }
+    .username,.usersobrenome,.usercell,.usermail,.usercpf,.usersenha,.userrec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    }
+    .register input{
+    width:350px;
+    padding: 10px;
+    border-radius: 2px;
+    outline: none;
+    color: #444444;
+    border: 1px solid orangered;
+    }
+
+    .placeholdername{
+        top: 137px;
+        position:absolute;
+        left: 50px; 
+        font-size: 14px;
+        padding: 0px 5px;
+        color: orangered;
+        transition: 0.5s;
+        pointer-events: none;
+        font: normal 15px sans-serif; 
+    }
+    .inputname:focus + .placeholdername, .inputname:not(:placeholder-shown)+.placeholdername {
+        top: 117px;
+        background-color: #ffffff;
+        
+    }
+    .inputname:focus{
+        /* border-color: #8a05be; */
+        /* transform: rotate(border 2s); */
+        border-color:  #8a05be; 
+        
+    }
+    .placeholdersobre{
+        top: 204px;
+        position:absolute;
+        left: 50px; 
+        font-size: 14px;
+        padding: 0px 5px;
+        color: orangered;
+        transition: 0.5s;
+        pointer-events: none;
+        font: normal 15px sans-serif; 
+    }
+    .inputsobr:focus + .placeholdersobre, .inputsobr:not(:placeholder-shown)+.placeholdersobre{
+        top: 186px;
+        background-color: #ffffff;
+    }
+    .inputsobr:focus{
+        border-color:  #8a05be; 
+        /* transform: rotate(border 2s); */
+        
+    }
+    .placeholdercell{
+        top: 272px;
+        position:absolute;
+        left: 50px; 
+        font-size: 14px;
+        padding: 0px 5px;
+        color: orangered;
+        transition: 0.5s;
+        pointer-events: none;
+        font: normal 15px sans-serif; 
+    }
+    .inputcell:focus + .placeholdercell, .inputcell:not(:placeholder-shown) + .placeholdercell{
+        top: 253px;
+        background-color: #ffffff;
+    }
+    .inputcell:focus{
+        border-color:  #8a05be; 
+        /* transform: rotate(border 2s); */
+        
+    }
+    .placeholdermail{
+         top: 338px; 
+         position:absolute;
+        left: 50px; 
+        font-size: 14px;
+        padding: 0px 5px;
+        color: orangered;
+        transition: 0.5s;
+        pointer-events: none;
+        font: normal 15px sans-serif; 
+    }
+    .inputmail:focus + .placeholdermail, .inputmail:not(:placeholder-shown)+.placeholdermail{
+        top: 319px;
+        background-color: #ffffff;
+    }
+    .inputmail:focus{
+        border-color:  #8a05be; 
+        /* transform: rotate(border 2s); */
+        
+    }
+    .placeholdercpf{
+        top: 405px;
+        position:absolute;
+        left: 50px; 
+        font-size: 14px;
+        padding: 0px 5px;
+        color: orangered;
+        transition: 0.5s;
+        pointer-events: none;
+        font: normal 15px sans-serif; 
+    }
+    .inputcpf:focus + .placeholdercpf, .inputcpf:not(:placeholder-shown) +.placeholdercpf{
+        top: 387px;
+        background-color: #ffffff;
+    }
+    .inputcpf:focus{
+        border-color:  #8a05be; 
+        /* transform: rotate(border 2s); */
+        
+    }
+    .placeholdersenha{
+        top: 472px;
+        position:absolute;
+        left: 50px; 
+        font-size: 14px;
+        padding: 0px 5px;
+        color: orangered;
+        transition: 0.5s;
+        pointer-events: none;
+        font: normal 15px sans-serif; 
+    }
+    .inputsenha:focus + .placeholdersenha, .inputsenha:not(:placeholder-shown)+.placeholdersenha{
+        top: 453px;
+        background-color: #ffffff;
+    }
+
+    .inputsenha:focus{
+        border-color:  #8a05be; 
+        /* transform: rotate(border 2s); */
+        
+    }
+    
+
+
+
